@@ -1,0 +1,53 @@
+/* Makes the container have a centered max width of 600px */
+.container {
+    max-width: 500px;
+    margin: 0 auto; /* this centers anything in this class */
+}
+
+/* class headline will be 3em and have a particular font family */
+.headline{
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+/* subhead class is gray and has a font family */
+.subhead {
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* anything with a p tag will have a line hight and be  */
+p {
+    line-height: 1.4em;
+    padding-bottom: 20px; /*  this adds padding at the end of each p tag to give a line break between paragraphs */
+
+}
+
+/* centers the image and makes sure it fully fits the class container */
+/* SEE WHAT HAPPENS WHEN YOU COMMENT IT OUT */
+figure {
+    width: 100%; 
+    margin: 0 auto;
+}
+/* Makes our 700px photo fit into the 600px container without overflowing */
+/* SEE WHAT HAPPENS WHEN YOU COMMENT IT OUT */
+.top-photo {
+    max-width: 100%;
+    margin: 0 auto;
+}
+/* Style the capion */
+figcaption {
+    color: gray;
+    font-size: .75em;
+
+}
+
+/* style the byline to upper case */
+.byline {
+    text-transform: uppercase;
+}
+
+/* Style the span which holds the dateline to upper case and bold */
+span {
+    text-transform: uppercase;
+    font-weight:bold;
+}
